@@ -14,7 +14,7 @@
 
     <div class="vx-navbar-wrapper" :class="classObj">
 
-      <vs-navbar class="vx-navbar navbar-custom navbar-skelton" :color="navbarColorLocal" :class="textColor">
+      <vs-navbar style="background:#134B8A;" class="vx-navbar navbar-custom navbar-skelton" :color="navbarColorLocal" :class="textColor">
 
         <!-- SM - OPEN SIDEBAR BUTTON -->
         <feather-icon class="sm:inline-flex xl:hidden cursor-pointer p-2" icon="MenuIcon" @click.stop="showSidebar" />
@@ -23,7 +23,7 @@
 
         <vs-spacer />
 
-        <search-bar />
+        <!-- <search-bar /> -->
 
         <notification-drop-down />
 
@@ -63,7 +63,7 @@ export default {
       return this.$store.state.verticalNavMenuWidth
     },
     textColor () {
-      return {'text-white': (this.navbarColor !== '#10163a' && this.$store.state.theme === 'dark') || (this.navbarColor !== '#fff' && this.$store.state.theme !== 'dark')}
+      return {'text-white': (this.navbarColor !== '#10163a' && this.$store.state.theme === 'dark') || (this.navbarColor !== '#FFF' && this.$store.state.theme !== 'dark')}
     },
     windowWidth () {
       return this.$store.state.windowWidth
