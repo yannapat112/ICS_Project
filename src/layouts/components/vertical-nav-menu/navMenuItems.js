@@ -11,7 +11,7 @@
 export default [
   {
     url: '/',
-    name: 'Home',
+    name: 'ICS',
     slug: 'home',
     icon: 'HomeIcon'
   },
@@ -20,5 +20,6 @@ export default [
     name: 'Page 2',
     slug: 'page2',
     icon: 'FileIcon'
-  }
+  },
+  
 ]

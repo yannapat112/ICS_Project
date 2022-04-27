@@ -43,9 +43,9 @@
 
                     <span class="w-2/2 bg-grid-color h-12">-</span>
 
-                    <div class="flex">
+                    <div class="flex ">
                       <div class="w-2/2 bg-grid-color h-12" :key="index" v-for="(close,index) in d.operation_time[0].time_close">{{close}}</div>
-                      <span class="w-2/2 bg-grid-color h-12" style="padding-right:65px;">:PM</span>
+                      <span class="w-2/2 bg-grid-color h-12;" style="padding-right:60px;">:PM</span>
 
                     </div>
 
