@@ -5,7 +5,7 @@
         <div class="vx-row">
           <div class="vx-col w-full">
           
-            <vs-button style="margin-bottom:6px;" @click="currentx--">back</vs-button>
+            <!-- <vs-button style="margin-bottom:6px;" @click="currentx--">back</vs-button> -->
             <!-- <vs-pagination :total="5" v-model="currentx"></vs-pagination> -->
           </div>
         </div>
